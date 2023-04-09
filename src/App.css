@@ -1,0 +1,110 @@
+*{
+  background:purple;
+  font-family:righteous;
+}
+ main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+} 
+.mainContainer{
+  display:inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-right:auto;
+  background-color:white;
+  padding:3rem 7rem;
+  border-radius:10%;
+  box-shadow:1px 1px 7px 1px #dcdada;
+  background:transparent;
+  backdrop-filter:blur(10px);
+  color:black;
+}
+span{
+  color:orange;
+  background:transparent;
+  backdrop-filter:blur(10px);
+}
+.container{
+  background:transparent;
+  backdrop-filter:blur(8px);
+  width:auto;
+}
+.container h1{
+  color:white;
+  background:transparent;
+  backdrop-filter:blur(10px);
+  text-align:center;
+  //padding-bottom:1rem;
+  font-size:3rem;
+  font-weight:300;
+}
+.mainContainer button{
+  color:white;
+  background:black;
+  backdrop-filter:blur(10px);
+  border-radius:.5rem;
+  padding:.4rem 1rem;
+  width:5rem;
+  height:3rem;
+  box-shadow:1px 1px 6px .2px #dcdada;
+}
+.container input{
+  font-size:1rem;
+  color:white;
+  height:3rem;
+  margin-right:2rem;
+  width:100%;
+  border:none;
+  padding:2rem auto;
+  text-align:center;
+  border-radius:.6rem;
+  background:black;
+  box-shadow:1px 1px 6px .2px #dcdada;
+}
+form{
+  background:transparent;
+  backdrop-filter:blur(10px);
+}
+.copiedContainer{
+  background:transparent;
+  text-align:center;
+}
+.clearButton{
+  background:transparent;
+}
+.copiedContainer button{
+  width:50%;
+}
+.clearButton button{
+  width:40%;
+}
+.clearButton{
+  margin-top:1rem;
+}
+.copiedContainer h2{
+  color:orange;
+  font-weight:400;
+  background:transparent;
+}
+.footer{
+  color:white;
+  background:transparent;
+  font-size:1rem;
+  text-align:center;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+.submit-button{
+  text-align:center;
+  margin-top:1rem;
+}
+@media (max-width:600px){
+  .mainContainer{
+    margin:auto;
+    width:60%;
+  }
+}
